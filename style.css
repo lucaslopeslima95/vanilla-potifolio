@@ -7,9 +7,11 @@ html{
     box-sizing: border-box;
 }
 body{
-    background-image: url("./assets/fundo.jpg");
-    background-size: contain;
-    background-attachment: fixed;
+   background: url('./assets/fundo.jpg') center center no-repeat fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 #toolBar{
  height: 75px;
